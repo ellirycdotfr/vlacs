@@ -1,7 +1,8 @@
-#!/usr/bin/perl
+#!/opt/local/bin/perl -Ilib
 use warnings;
 use strict;
 use Data::Dumper;
 use Mojolicious::Lite;
 use Switch;
 use Sys::Syslog;
+use VLACS;
